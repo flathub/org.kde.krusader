@@ -74,8 +74,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/krusader/2.8.0/krusader-2.8.0.tar.xz",
-                    "sha256": "8e4cf05a9318b0bc1b0941811b988b2f2bb0c04a0d1e37998212a9190cf2c29a",
+                    "url": "https://download.kde.org/stable/krusader/2.8.1/krusader-2.8.1.tar.xz",
+                    "sha256": "37bf204519d0ab1ba40964af02741bc228f11e97f28c4c518ca05d358df18283",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9651,
