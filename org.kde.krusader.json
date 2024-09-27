@@ -82,6 +82,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/krusader/$version/krusader-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "appstream.patch"
                 }
             ]
         }
