@@ -1,7 +1,7 @@
 {
     "app-id": "org.kde.krusader",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "krusader",
     "rename-icon": "krusader_user",
@@ -74,18 +74,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/krusader/2.8.1/krusader-2.8.1.tar.xz",
-                    "sha256": "37bf204519d0ab1ba40964af02741bc228f11e97f28c4c518ca05d358df18283",
+                    "url": "https://download.kde.org/stable/krusader/2.9.0/krusader-2.9.0.tar.xz",
+                    "sha256": "c9b79bfade6cc69fe0e341ecef932fcac8afd9fe94e8cbcfbd729feb54394e04",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9651,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/krusader/$version/krusader-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "appstream.patch"
                 }
             ]
         }
