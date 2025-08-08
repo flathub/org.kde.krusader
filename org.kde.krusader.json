@@ -6,16 +6,16 @@
     "command": "krusader",
     "rename-icon": "krusader_user",
     "finish-args": [
+        "--device=dri",
+        "--filesystem=/media",
+        "--filesystem=/run/media",
+        "--filesystem=home",
         "--share=ipc",
         "--share=network",
-        "--socket=wayland",
         "--socket=fallback-x11",
-        "--filesystem=home",
-        "--filesystem=/run/media",
-        "--filesystem=/media",
-        "--device=dri",
-        "--talk-name=org.kde.StatusNotifierWatcher",
-        "--system-talk-name=org.freedesktop.UDisks2"
+        "--socket=wayland",
+        "--system-talk-name=org.freedesktop.UDisks2",
+        "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
         {
