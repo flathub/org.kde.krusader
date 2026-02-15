@@ -17,6 +17,14 @@
         "--system-talk-name=org.freedesktop.UDisks2",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
+     "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/share/doc",
+        "/share/man",
+        "*.la",
+        "*.a"
+    ],
     "modules": [
         {
             "name": "lha",
