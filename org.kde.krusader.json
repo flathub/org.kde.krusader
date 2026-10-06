@@ -68,8 +68,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ip7z/7zip/archive/refs/tags/26.02.tar.gz",
-                    "sha256": "7e5600ad0b21918bc41803bd84d0c2967e097fb7fbaa2e7aeb90beeb1121e54b",
+                    "url": "https://github.com/ip7z/7zip/archive/refs/tags/26.04.tar.gz",
+                    "sha256": "48fdc6dfe879ee2db867bb07f19c4a9406bfea01d51f48785b6c7a137881e25c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 372314,
