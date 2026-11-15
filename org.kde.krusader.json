@@ -27,15 +27,17 @@
     ],
     "modules": [
         {
-            "name": "lha",
-            "config-opts": [
-                "--disable-static"
-            ],
+            "name": "lhasa",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://www.soulsphere.org/projects/lhasa/lhasa-0.3.1.tar.gz",
-                    "sha256": "3fb08e5f85a9b9dd023922896be9157d5fb5c0448424681810aaa2b0558a5f24"
+                    "url": "https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0.tar.gz",
+                    "sha256": "9840154367f73e9d9c3196f944a121ab4d398d84e921c8fe8fca8a931274aed7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 14822,
+                        "url-template": "https://github.com/fragglet/lhasa/releases/download/v$version/lhasa-$version.tar.gz"
+                    }
                 }
             ]
         },
